@@ -1,0 +1,10 @@
+C:\Users\Stan\Desktop\HackBox\HackBox\bin\Debug\HackBox.exe.config
+C:\Users\Stan\Desktop\HackBox\HackBox\bin\Debug\HackBox.exe
+C:\Users\Stan\Desktop\HackBox\HackBox\bin\Debug\HackBox.pdb
+C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.csprojAssemblyReference.cache
+C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.Form1.resources
+C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.Properties.Resources.resources
+C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.csproj.GenerateResource.cache
+C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.csproj.CoreCompileInputs.cache
+C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.exe
+C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.pdb
