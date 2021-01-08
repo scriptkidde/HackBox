@@ -114,6 +114,12 @@ namespace HackBox
 			richTextBox1.AppendText(goint + "\n");
 
 		}
+
+		private void button8_Click(object sender, EventArgs e)
+		{
+			string bsod = "powershell.exe wininit.exe";
+			richTextBox1.AppendText(bsod);
+		}
 	}
 }
 
