@@ -77,6 +77,14 @@ namespace HackBox
 		{
 
 		}
+
+		private void button5_Click_1(object sender, EventArgs e)
+		{
+			this.Hide();
+			Form2 penis = new Form2();
+			penis.ShowDialog();
+			this.Close();
+		}
 	}
 }
 

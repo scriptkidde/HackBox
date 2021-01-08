@@ -8,3 +8,4 @@ C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.csproj.GenerateResource.
 C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.csproj.CoreCompileInputs.cache
 C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.exe
 C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.pdb
+C:\Users\Stan\Desktop\HackBox\HackBox\obj\Debug\HackBox.Form2.resources
